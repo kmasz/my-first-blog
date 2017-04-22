@@ -1,0 +1,14 @@
+katalog django:		c:\users\kmasz\django
+
+virtualenv:		myenv
+
+włączenie virtualenv:	w katalogu django, komnenda:	myenv\Scripts\activate.bat
+
+uruchmienie serwera:	w katalogu django, komnenda:	python manage.py runserver
+
+tworzenie aplikacji w djangeo: w katalogu django, komnenda:		python manage.py startapp nazwa_aplikacji
+
+zmiany w modelu/bazie danych:	python manage.py makemigrations nazwa_aplikacji
+								python manage.py migrate nazwa_aplikacji
+
+https://tutorial.djangogirls.org/pl/deploy/
